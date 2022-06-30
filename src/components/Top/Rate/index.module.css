@@ -1,0 +1,26 @@
+.rates {
+  display: flex;
+
+  justify-content: space-between;
+  margin-left: 200px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.wraper {
+  display: flex;
+}
+
+.asset {
+  font-weight: 700;
+}
+
+.rate {
+  font-weight: 700;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.change {
+  color: rgb(138, 136, 136);
+}
