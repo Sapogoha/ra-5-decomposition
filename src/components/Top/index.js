@@ -8,6 +8,10 @@ import styles from './index.module.css';
 
 import { ad, headerData, news, rates, date } from '../data';
 
+/**
+ * Компонент, отвечающий за отрисовку верхней трети страницы.
+ */
+
 function Top() {
   return (
     <div className={styles.header}>

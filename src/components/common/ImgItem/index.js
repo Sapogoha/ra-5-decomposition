@@ -1,6 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+/**
+ * Компонент, отвечающий за отрисовку кликабельного изображения.
+ */
+
 function ImgItem({ logo, alt, link }) {
   return (
     <a href={link}>

@@ -3,8 +3,12 @@ import PropTypes from 'prop-types';
 
 import styles from './index.module.css';
 
-import Link from '../Link';
-import ImgItem from '../ImgItem';
+import Link from '../../common/Link';
+import ImgItem from '../../common/ImgItem';
+
+/**
+ * Компонент, отвечающий за отрисовку новости в новостном блоке
+ */
 
 function NewsItem({ logo, alt, link, href, text }) {
   return (

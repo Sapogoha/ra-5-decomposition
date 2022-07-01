@@ -5,8 +5,7 @@ import Middle from '../Middle';
 import Bottom from '../Bottom';
 
 /**
- * This is the main component.
- * It sticks together all parts of the page:
+ * Главный компонент. Включает в себя:
  * - Top
  * - Middle
  * - Bottom

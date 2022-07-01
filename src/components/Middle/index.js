@@ -8,6 +8,10 @@ import Banner from './Banner';
 
 import { sections, logo, slogan, banner } from '../data';
 
+/**
+ * Компонент, отвечающий за отрисовку средней трети страницы.
+ */
+
 function Middle() {
   return (
     <div>

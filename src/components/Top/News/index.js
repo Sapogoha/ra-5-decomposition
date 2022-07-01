@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import styles from './index.module.css';
 
-import NewsItem from '../../common/NewsItem';
+import NewsItem from '../NewsItem';
 
 function News({ news }) {
   return (
